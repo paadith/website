@@ -14,8 +14,39 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   color: #444444;
+}
+.h4, h4 {
+  font-size: calc(1.275rem + .3vw);
+}
+.content h4 { font-size: 24px;}
+.content p { font-size: 16px;}
+.modal-title 
+{
+  font-size: 24px;
+}
+
+.popup{
+  font-family: "Open Sans", sans-serif !important;
+  color: #444444;
+  display: flex;
+  flex-direction: row; 
+ justify-content: space-between;
+ padding: 20px;
+ color: #000;
+ font-weight: 600;
+}
+.try-now
+{
+  padding-right: 20px;
+  margin-left: -120px;
+}
+
+@media (max-width: 700px) {
+  .try-now {
+    margin-left: 0px;
+  }
 }
 
 a {
@@ -34,7 +65,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif !important;
 }
 
 /*--------------------------------------------------------------
@@ -98,6 +129,7 @@ section {
     margin-top: 57px;
   }
 }
+
 
 .breadcrumbs h2 {
   font-size: 28px;
@@ -555,7 +587,7 @@ section {
 }
 
 .about h3 {
-  font-size: 24px;
+  font-size: 24px !important;
   font-weight: 700;
   color: #0172d2;
   text-transform: uppercase;
@@ -563,7 +595,7 @@ section {
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 24px !important;
   font-weight: 700;
   color: #000;
 }
@@ -912,7 +944,11 @@ section {
 .services .service-box.pink .read-more {
   color: #f51f9c;
 }
+.services h3 { font-size: 28px;}
 
+.services p{
+  font-size: 16px;
+}
 
 
 /* .services .service-box:hover .icon {
